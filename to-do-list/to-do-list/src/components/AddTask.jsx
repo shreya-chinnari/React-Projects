@@ -1,6 +1,6 @@
 function AddTask() {
 	return (
-		<div className="row">
+		<div className="row custom-row">
 			<div className="col-6">
 				<input
 					type="text"
@@ -13,7 +13,7 @@ function AddTask() {
 			<div className="col-2">
 				<button
 					type="button"
-					className="btn btn-success"
+					className="btn btn-success custom-btn"
 				>
 					Add
 				</button>
