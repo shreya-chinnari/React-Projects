@@ -1,0 +1,23 @@
+function ToDoItem() {
+	let taskName = "Wash clothes";
+	let taskDate = "08/03/2003";
+
+	return (
+		<div className="container text-center ">
+			<div className="row">
+				<div className="col-6">{taskName}</div>
+				<div className="col-4">{taskDate}</div>
+				<div className="col-2">
+					<button
+						type="button"
+						className="btn btn-danger"
+					>
+						Delete
+					</button>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export default ToDoItem;
