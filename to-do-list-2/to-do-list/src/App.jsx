@@ -21,10 +21,12 @@ function App() {
 		},
 	];
 	return (
-		<center className="to-do-container">
+		<center>
 			<AppName />
-			<AddTask></AddTask>
-			<TaskItems taskItems={taskItems}></TaskItems>
+			<div className="to-do-container">
+				<AddTask></AddTask>
+				<TaskItems taskItems={taskItems}></TaskItems>
+			</div>
 		</center>
 	);
 }

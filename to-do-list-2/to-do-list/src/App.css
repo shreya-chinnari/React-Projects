@@ -1,24 +1,18 @@
-.appName {
-	font-weight: 700;
-	font-size: 2.5rem;
-	margin: 1rem;
-}
-
-.to-do-container {
-	margin: 4rem 10rem;
-	text-align: left;
-}
-
 input {
 	width: 100%;
 }
 
-.tasks-container {
-	text-align: left;
-}
-
 .custom-row {
 	margin: 1rem 3rem !important;
+
+
+}
+
+.to-do-container {
+	max-width: 80rem;
+	margin: 4rem;
+	padding: 0;
+
 }
 
 .custom-btn {

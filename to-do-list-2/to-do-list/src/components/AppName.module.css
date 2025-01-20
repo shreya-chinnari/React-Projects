@@ -1,0 +1,9 @@
+.appName {
+	font-weight: 700;
+	font-size: 2.5rem;
+	margin: 1rem;
+	color: red;
+   display: flex;
+   justify-content: center !important;
+   align-items: center !important;
+}
